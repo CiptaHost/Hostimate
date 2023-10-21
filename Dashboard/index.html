@@ -533,6 +533,22 @@
             document.getElementById('battery-level').textContent = 'Browser Anda tidak mendukung Battery Status API.';
         }
     </script>
+     <script>
+        function updateClock() {
+            const now = new Date();
+            const hours = now.getHours().toString().padStart(2, '0');
+            const minutes = now.getMinutes().toString().padStart(2, '0');
+            const seconds = now.getSeconds().toString().padStart(2, '0');
+            const timeString = hours + ":" + minutes + ":" + seconds + " WIB";
+            document.getElementById('clock').textContent = timeString;
+        }
+
+        // Perbarui jam setiap detik
+        setInterval(updateClock, 1000);
+
+        // Panggil fungsi untuk pertama kali
+        updateClock();
+    </script>
     <script src="https://themewagon.github.io/corona-free-dark-bootstrap-admin-template/assets/vendors/js/vendor.bundle.base.js"></script>
     <!-- endinject -->
     <!-- Plugin js for this page -->
