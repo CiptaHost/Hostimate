@@ -2,6 +2,6 @@
   "cleanUrls": true,
   "rewrites": [
     { "source": "/(.*)", "destination": "index" },
-    { "source": "/home", "destination": "index"
+    { "source": "/home", "destination": "index" }
   ]
 }
