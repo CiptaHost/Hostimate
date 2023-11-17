@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Contoh URL 1 -->
+  <url>
+    <loc>https://matchboxid.my.id/cloud-hosting</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.1</priority>
+  </url>
+
+  <!-- Contoh URL 2 -->
+  <url>
+    <loc>https://matchboxid.my.id/developer-hosting</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.1</priority>
+  </url>
+
+  <!-- Contoh URL 3 -->
+  <url>
+    <loc>https://matchboxid.my.id/index.html</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.1</priority>
+  </url>
+  
+  <url>
+    <loc>https://matchboxid.my.id/pricing.html</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.1</priority>
+  </url>
+
+</urlset>
