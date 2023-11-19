@@ -1,6 +1,7 @@
 {
   "cleanUrls": true,
   "rewrites": [
-    { "source": "/(.*)", "destination": "index" } 
+    { "source": "/(.*)", "destination": "index" },
+    { "source"; "/contact", "destination": "https://wa.me/6285941896616" }
   ]
 }
